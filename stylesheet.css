@@ -1,0 +1,42 @@
+.font-hl {
+    font-family: 'Alegreya', serif;
+    font-size: 3rem;
+}
+
+.font-b {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.gold {
+    color: #D9BA82;
+}
+
+.black {
+    color: #18020C;
+}
+
+.white {
+    color: #F8F7F4;
+}
+
+.green {
+    color: #023C40;
+}
+
+.redwood {
+    color: #B26053;
+}
+
+
+.gold-hl {
+    color: #EEE4D0;
+}
+
+.green-hl {
+    color: #9DABAD;
+}
+
+.redwood-hl {
+    color: #D5B0A8;
+}
