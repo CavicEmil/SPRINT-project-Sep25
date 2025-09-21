@@ -382,6 +382,8 @@ a {
     margin-top: 2vh;
     text-align: center;
     border-radius: 25px;
+    color:#F8F7F4;
+    font-weight: 600;
 }
 
 .ins-highlights.expanded {
