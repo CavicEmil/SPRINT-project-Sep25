@@ -12,30 +12,109 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="icon" type="image/x-icon" href="util/favicon.ico">
 </head>
 <body class="bg-container">
     <header>
-        <nav class="gold font-hl size-m">
-            <img src="util/placeholder.png" class="icon">
-            <img src="util/placeholder.png" class="icon">
-            <img src="util/placeholder.png" class="icon">
-            <img src="util/placeholder.png" class="hamburger">
-        </nav>
-        <h1 class="gold font-hl size-l">Dancys <br> & <br> Daughters</h1>
+        <diV class="navwrapper">
+            <div class="topnav font-b white size-s">
+                <a href="#_contact">Walk-ins welcome!</a>
+                <a href="https://book.timma.dk/dancydaughterstattooparlour" target="_blank">Booking</a>
+            </div>
+            <div class="navicons">
+                <div class="navsocials">
+                    <a href="https://www.instagram.com/dancyanddaughters/" target="_blank"><img src="util/icons/instagram.png" class="icon"></a>
+                    <a href="https://www.facebook.com/dancyanddaughters" target="_blank"><img src="util/icons/facebook.png" class="icon"></a>
+                    <a href="tel:+4531718070" target="_blank"><img src="util/icons/phone.png" class="icon"></a>
+                </div>
+                <img src="util/icons/menu.png" class="icon burger" id="burger">
+            </div>
+            <nav class="white font-b size-s hidden" id="nav">
+                <div class="linkswrapper">
+                    <p><a href="https://book.timma.dk/dancydaughterstattooparlour" target="_blank">Booking</a></p>
+                    <p><a href="#_inspiration">Inspiration</a></p>
+                    <p><a href="#_artists">Our Artists</a></p>
+                    <p><a href="#_faq">FAQ</a></p>
+                    <p><a href="#_contact">Contact</a></p>
+                </div>
+            </nav>
+        </diV>
+        <div class="herocarousel" id="carouselHero">
+            <div class="fade-overlay"></div>
+        </div>
         <section class="heronav">
-            <div class="button"><a href="#_inspiration">Inspiration</a></div>
-            <div class="button">Get in touch!</div>
-            <div class="button">FAQ</div>
+            <a href="#_inspiration"><div class="button">Inspiration</div></a>
+            <a href="#_contact"><div class="button">Get in touch!</div></a>
+            <a href="#_faq"><div class="button">FAQ</div></a>
         </section>
     </header>
     <main>
         <section class="inspiration" id="_inspiration">
-            <!--To be added sample section-->
+            <h2 class="gold font-hl size-l center">Inspiration</h2>
+            <div class="inspirationwrapper">
+                <div class="ins-highlights" id="insHighlights">
+                    <div class="innerinspirations"></div>
+                </div>
+                <div class="ins-showmore black font-b size-l" id="insShowmore">V</div>
+            </div>
+            <!-- UPDATE ARTIST CAROUSEL & EXPAND PROFILE TEXT -->
+            <div class="artistscarousel" id="carouselArtists"></div>
         </section>
-        <section>
-            <!--To be added sample section-->
+        <section class="faq" id="_faq">
+            <div class="faqtoggle" id="faqtoggle">
+                <h2 class="gold font-hl size-l">FAQs</h2>
+                <p class="green w800 font-b size-m">V</p>
+            </div>
+            <div class="faq-wrapper" id="faq-wrapper">
+            </div>
         </section>  
+        <section class="contact" id="_contact">
+             <h2 class="gold font-hl size-l center">Contact Us</h2>
+             <div class="invitewrapper">
+                <div class="textwrapper">
+                    <h3 class="gold font-hl size-m center">Have an idea or looking for inspiration?</h3>
+                    <p class="w800 black font-b size-s">
+                        Just come by, we are always happy to have a chat with you!
+                    </p>
+                </div>
+                <div class="team">
+                    <img src="util/team.png">
+                </div>
+             </div>
+             <div class="openinghours">
+                <h3 class="gold font-hl size-m center">Opening Hours</h3>
+                <div class="hourstext black font-b size-s w800">
+                    <div class="row">
+                        <p>Tuesday - Friday</p><p>10:00-18:00</p>
+                    </div>
+                    <div class="row">
+                        <p>Saturday</p><p>10:00-16:00</p>
+                    </div>
+                </div>
+             </div>
+             <div class="map">
+                <h3 class="gold font-hl size-m center">Where to find Us</h3>
+                    <img src="util/map.png">
+             </div>
+             <div class="socials">
+                <h3 class="gold font-hl size-m center">Get in touch</h3>
+                <div class="socialswrapper">
+                    <a href="https://www.instagram.com/dancyanddaughters/" target="_blank"><img src="util/icons/instagram.png" class="icon"></a>
+                    <a href="https://www.facebook.com/dancyanddaughters" target="_blank"><img src="util/icons/facebook.png" class="icon"></a>
+                    <a href="tel:+4531718070" target="_blank"><img src="util/icons/phone.png" class="icon"></a>
+                </div>
+                <p class="center w600 font-b size-m">Lets create something together</p>
+                </div>
+             </div>
+        </section>
     </main>
+    <footer class="font-b green-hl">
+        <p> &copy; 2025 Ink Ducklings </p>
+        <p> Privacy Policy </p>
+        <p> Terms & Conditions </p>
+        <p> Cookie Policy </p>
+        <p> <a href="_contact">Contact </a></p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
